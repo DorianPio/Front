@@ -1,0 +1,23 @@
+.swipper-img {
+  aspect-ratio: 16 / 9;
+  background-position: center;
+  object-fit: cover;
+}
+
+.card-content-desc-text {
+  font-size: 17px;
+}
+
+.like {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.card-icon {
+  color: red;
+}
+
+.card-icon-text {
+  padding-left: 5px;
+}

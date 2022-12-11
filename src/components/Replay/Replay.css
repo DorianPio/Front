@@ -1,0 +1,36 @@
+.card-live {
+  margin: 10px 0px 10px 0px;
+}
+
+.day-number-container {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  background-color: var(--ion-color-secondary);
+  font-size: 1.5rem;
+  color: var(--ion-color-secondary-contrast);
+}
+
+.day-number {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.live-title {
+  font-size: 1.5em !important;
+}
+
+.live-host {
+  padding-top: 1.5em !important;
+}
+
+
+.item-live {
+  border-style: none;
+  --border-style: none;
+}
+
+.live-row:not(:last-child) {
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgrey;
+}

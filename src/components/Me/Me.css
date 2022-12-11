@@ -1,0 +1,40 @@
+.round-avatar {
+  aspect-ratio: 1/1;
+  max-height: 100%;
+  border-radius: 100%;
+  border: 3px solid var(--ion-color-primary-contrast);
+  background-color: white;
+}
+
+.notif {
+  border: 5px solid var(--ion-color-secondary);
+}
+
+.app-img {
+  background-color: white;
+  border-radius: 20px;
+}
+
+.app-logo::part(image) {
+  max-height: 100px;
+}
+
+.space {
+  justify-content: space-between !important;
+}
+
+.background-picture {
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.background-title {
+  padding: 10px;
+  color : white;
+  width: min-content;
+  height: min-content;
+  backdrop-filter: blur(10px);
+  font-weight: bolder !important;
+}

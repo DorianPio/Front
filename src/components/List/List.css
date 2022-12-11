@@ -1,0 +1,13 @@
+.details-theme {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.card-theme:not(:first-child) {
+  border-top: 2px solid red;
+}
+
+.video-viewed {
+  border: 5px solid rgb(238, 238, 238);
+  box-shadow: inset 0 0 0 2000px rgba(64, 218, 64, 0.575);
+}

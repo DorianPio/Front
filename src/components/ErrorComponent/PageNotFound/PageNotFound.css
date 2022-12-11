@@ -1,0 +1,38 @@
+.content404 *{
+  width : fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid404{
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "header"
+    "item"
+    "button";
+}
+
+.header404 {
+  grid-area: header;
+  align-self: center;
+
+  text-align: center;
+  font-size: 5rem;
+}
+
+.item404 {
+  grid-area: item;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.button404 {
+  grid-area: button;
+  align-self: end;
+
+  text-align: center;
+  font-size: 1rem;
+}

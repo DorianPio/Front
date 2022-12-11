@@ -1,0 +1,8 @@
+.btn-login {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.loginImg::part(image) {
+  border-radius: 20px;
+}

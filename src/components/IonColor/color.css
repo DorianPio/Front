@@ -1,0 +1,35 @@
+.ion-color-transparent {
+  --ion-color-base: rgba(255, 255, 255, 0) !important;
+  --ion-color-base-rgb: rgba(255, 255, 255, 0) !important;
+  --ion-color-contrast: #000000 !important;
+  --ion-color-contrast-rgb: rgba(0, 0, 0, 0) !important;
+  --ion-color-shade: #00000000 !important;
+  --ion-color-tint: #00000000 !important;
+}
+
+.ion-color-white {
+  --ion-color-base: #fff !important;
+  --ion-color-base-rgb: rgb(255, 255, 255) !important;
+  --ion-color-contrast: #000000 !important;
+  --ion-color-contrast-rgb: rgb(0, 0, 0) !important;
+  --ion-color-shade: #636363 !important;
+  --ion-color-tint: #1f1f1f !important;
+}
+
+.ion-color-black {
+  --ion-color-base: rgb(0, 0, 0) !important;
+  --ion-color-base-rgb: rgb(0, 0, 0) !important;
+  --ion-color-contrast: #000000 !important;
+  --ion-color-contrast-rgb: rgb(0, 0, 0) !important;
+  --ion-color-shade: #e0bd00 !important;
+  --ion-color-tint: #ffdb1a !important;
+}
+
+.ion-color-grey {
+  --ion-color-base: rgb(121, 121, 121) !important;
+  --ion-color-base-rgb: rgb(121, 121, 121) !important;
+  --ion-color-contrast: #000000 !important;
+  --ion-color-contrast-rgb: rgb(0, 0, 0) !important;
+  --ion-color-shade: #e0bd00 !important;
+  --ion-color-tint: #ffdb1a !important;
+}

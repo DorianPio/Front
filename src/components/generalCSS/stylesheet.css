@@ -1,0 +1,157 @@
+.fullWidth {
+  width: 100%;
+}
+
+.fullHeight {
+  height: 100%;
+}
+
+.bold {
+  font-weight: bolder !important;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.btn {
+  font-size: 20px;
+  width: 100%;
+  padding: 15px 0 15px 0;
+  border-radius: 20px;
+  background-color: var(--ion-color-secondary);
+  text-align: center;
+  color: white;
+  transition: 0.2s;
+  cursor: pointer;
+  user-select: none;
+  font-weight: bolder !important;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.thin {
+  font-weight: lighter;
+}
+
+.hover-underline {
+  cursor: pointer;
+}
+
+.default-cursor {
+  user-select: none;
+  cursor: pointer;
+}
+
+a {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+ion-input {
+  border-bottom: solid black 1px;
+}
+
+form {
+  margin-top: 20px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  border-radius: 20px;
+}
+
+.secondary-shade {
+  background-color: var(--ion-color-secondary-shade);
+}
+
+.btn-shade {
+  background-color: var(--ion-color-secondary-shade) !important;
+}
+
+.card-content {
+  border-radius: 20px;
+  transition: 0.2s;
+}
+
+.card {
+  margin: 0px;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+.card {
+  padding: 5px 0px 5px 0px;
+  margin: 0px;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+.details {
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  background-color: var(--ion-color-secondary-contrast);
+  color: black;
+}
+
+.details[open] > summary {
+  padding-bottom: 10px;
+}
+
+.details > summary {
+  font-weight: bolder;
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+.light-background {
+  padding: 20px;
+  background-color: var(--ion-color-secondary-contrast);
+}
+
+.border-radius {
+  border-radius: 20px;
+}
+
+.black-text {
+  color: black;
+}
+
+.flex {
+  display: flex;
+}
+
+.block {
+  display: block;
+}
+
+.center-text {
+  text-align: center;
+}
+
+#disabled > * > * {
+  background-color: rgb(180, 180, 180);
+}
+#disabled * {
+  color: grey;
+}
+#disabled {
+  pointer-events: none;
+  border-radius: 20px;
+}
+
+.white-bg {
+  background-color: white;
+  height: 100%;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.loading {
+  --background: #e3edff;
+  --spinner-color: #1c6dff;
+
+  color: #1c6dff;
+}

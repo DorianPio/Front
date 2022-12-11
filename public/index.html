@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title id="tab-title">Not Defined</title>
+
+    <base href="/" />
+
+    <meta name="color-scheme" content="light dark" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="assets/logo/formaceoReverse.png"
+    />
+
+    <!-- add to homescreen for ios -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Formaceo" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+
+  <script>
+    const register = [
+      { pathname: "/home", label: "Choisissez votre module !" },
+      {
+        pathname: "/video",
+        label: "Regardez la vidéo et répondez aux questions !",
+      },
+      {
+        pathname: "/videogen",
+        label: "Regardez la vidéo, et choississez la prochaine !",
+      },
+      {
+        pathname: "/videoreplay",
+        label: "Regardez un replay !",
+      },
+      { pathname: "/welcome", label: "Choisissez votre partie !" },
+      {
+        pathname: "/competences",
+        label: "Choisissez une compétence pour voir les thèmes associés !",
+      },
+      {
+        pathname: "/generiques",
+        label: "Choisissez un nom générique pour voir les thèmes associés !",
+      },
+      { pathname: "/components", label: "Components !" },
+      { pathname: "/nextLives", label: "Voici les prochains lives !" },
+      { pathname: "/replay", label: "Voici les replay !" },
+      { pathname: "/profile", label: "Profile !" },
+      { pathname: "/profileAdmin", label: "Profile !" },
+      { pathname: "/feed", label: "Fil d'actualité" },
+      { pathname: "/login", label: "Connexion !" },
+      { pathname: "/register", label: "Enregistrement !" },
+      { pathname: "/list", label: "Liste !" },
+      { pathname: "/404", label: "Perdu ?" },
+    ];
+
+    function getTabName() {
+      let name = "";
+      const ref = window.location.pathname;
+
+      for (let item of register) {
+        if (item.pathname === ref) name = item.label;
+      }
+      return name;
+    }
+
+    document.getElementById("tab-title").innerHTML =
+      "Formaceo - " + getTabName();
+  </script>
+</html>

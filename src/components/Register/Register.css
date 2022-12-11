@@ -1,0 +1,7 @@
+.loginImg::part(image) {
+  border-radius: 20px;
+}
+
+ion-item > ion-select {
+  border-bottom: solid 1px black;
+}

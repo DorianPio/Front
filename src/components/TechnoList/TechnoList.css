@@ -1,0 +1,52 @@
+#technoList {
+  margin-top: 20px !important;
+  margin-bottom: 80px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  border-radius: 20px;
+}
+
+.techno-item {
+  border-radius: 20px;
+  height: 7rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  margin-bottom: 15px;
+}
+
+.vertical-align {
+  height: 100%;
+  align-items: end;
+}
+
+.techno-name {
+  padding: 10px;
+  backdrop-filter: blur(10px);
+  margin-left: 0px;
+  margin-bottom: 0px;
+  font-weight: bolder !important;
+}
+
+.techno-active {
+  transition: 0.4s;
+  cursor: pointer;
+  user-select: none;
+}
+
+.techno-disable {
+  cursor: default;
+  user-select: none;
+
+  filter: grayscale(100%) brightness(50%);
+  transition: 0.4s;
+}
+
+.techno-active.last {
+  margin-bottom: 70px;
+}
+
+.loginImg::part(image) {
+  border-radius: 20px;
+}

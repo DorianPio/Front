@@ -1,0 +1,43 @@
+:root {
+  --width-file-input: 100%;
+  --height-file-input: 50px;
+}
+
+.input-container {
+  width: var(--width-file-input);
+  height: var(--height-file-input);
+  overflow: hidden;
+}
+
+.input-file-button {
+  position: relative;
+}
+
+.input-file-hide {
+  opacity: 0;
+  position: relative;
+  top: calc(0px - var(--height-file-input));
+  width: var(--width-file-input);
+  height: calc(3 * var(--height-file-input));
+}
+
+.empty-item {
+  height: 20px;
+  width: 100%;
+}
+
+.input-send {
+  margin-top: 20px;
+}
+
+.input-img {
+  aspect-ratio: 4 / 5;
+  background-position: center;
+  object-fit: contain;
+  max-height: 250px;
+}
+
+.input-carousel {
+  border-radius: 20px;
+  background-color: var(--ion-color-secondary-contrast);
+}
